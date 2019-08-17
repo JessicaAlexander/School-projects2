@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40F7CDC22A7178200FF9550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7CDB22A7178200FF9550 /* AppDelegate.swift */; };
+		C40F7CDE22A7178200FF9550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7CDD22A7178200FF9550 /* ViewController.swift */; };
+		C40F7CE122A7178200FF9550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40F7CDF22A7178200FF9550 /* Main.storyboard */; };
+		C40F7CE322A7178400FF9550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40F7CE222A7178400FF9550 /* Assets.xcassets */; };
+		C40F7CE622A7178400FF9550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40F7CE422A7178400FF9550 /* LaunchScreen.storyboard */; };
+		C40F7CF122A7178400FF9550 /* Aphrodite_s_Toy_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7CF022A7178400FF9550 /* Aphrodite_s_Toy_BoxTests.swift */; };
+		C40F7CFC22A7178400FF9550 /* Aphrodite_s_Toy_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7CFB22A7178400FF9550 /* Aphrodite_s_Toy_BoxUITests.swift */; };
+		C40F7D0A22A7208E00FF9550 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7D0922A7208E00FF9550 /* DetailsVC.swift */; };
+		C40F7D0C22A721DB00FF9550 /* insideToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7D0B22A721DB00FF9550 /* insideToyBox.swift */; };
+		C40F7D0E22A721F400FF9550 /* Toys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F7D0D22A721F400FF9550 /* Toys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40F7CED22A7178400FF9550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40F7CD022A7178200FF9550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40F7CD722A7178200FF9550;
+			remoteInfo = "Aphrodite's Toy Box";
+		};
+		C40F7CF822A7178400FF9550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40F7CD022A7178200FF9550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40F7CD722A7178200FF9550;
+			remoteInfo = "Aphrodite's Toy Box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40F7CD822A7178200FF9550 /* Aphrodite's Toy Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aphrodite's Toy Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40F7CDB22A7178200FF9550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40F7CDD22A7178200FF9550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C40F7CE022A7178200FF9550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40F7CE222A7178400FF9550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40F7CE522A7178400FF9550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40F7CE722A7178400FF9550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40F7CEC22A7178400FF9550 /* Aphrodite's Toy BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aphrodite's Toy BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40F7CF022A7178400FF9550 /* Aphrodite_s_Toy_BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aphrodite_s_Toy_BoxTests.swift; sourceTree = "<group>"; };
+		C40F7CF222A7178400FF9550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40F7CF722A7178400FF9550 /* Aphrodite's Toy BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aphrodite's Toy BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40F7CFB22A7178400FF9550 /* Aphrodite_s_Toy_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aphrodite_s_Toy_BoxUITests.swift; sourceTree = "<group>"; };
+		C40F7CFD22A7178400FF9550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40F7D0922A7208E00FF9550 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C40F7D0B22A721DB00FF9550 /* insideToyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insideToyBox.swift; sourceTree = "<group>"; };
+		C40F7D0D22A721F400FF9550 /* Toys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40F7CD522A7178200FF9550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F7CE922A7178400FF9550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F7CF422A7178400FF9550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40F7CCF22A7178200FF9550 = {
+			isa = PBXGroup;
+			children = (
+				C40F7CDA22A7178200FF9550 /* Aphrodite's Toy Box */,
+				C40F7CEF22A7178400FF9550 /* Aphrodite's Toy BoxTests */,
+				C40F7CFA22A7178400FF9550 /* Aphrodite's Toy BoxUITests */,
+				C40F7CD922A7178200FF9550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40F7CD922A7178200FF9550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40F7CD822A7178200FF9550 /* Aphrodite's Toy Box.app */,
+				C40F7CEC22A7178400FF9550 /* Aphrodite's Toy BoxTests.xctest */,
+				C40F7CF722A7178400FF9550 /* Aphrodite's Toy BoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40F7CDA22A7178200FF9550 /* Aphrodite's Toy Box */ = {
+			isa = PBXGroup;
+			children = (
+				C40F7CDB22A7178200FF9550 /* AppDelegate.swift */,
+				C40F7CDD22A7178200FF9550 /* ViewController.swift */,
+				C40F7CDF22A7178200FF9550 /* Main.storyboard */,
+				C40F7D0922A7208E00FF9550 /* DetailsVC.swift */,
+				C40F7D0B22A721DB00FF9550 /* insideToyBox.swift */,
+				C40F7D0D22A721F400FF9550 /* Toys.swift */,
+				C40F7CE222A7178400FF9550 /* Assets.xcassets */,
+				C40F7CE422A7178400FF9550 /* LaunchScreen.storyboard */,
+				C40F7CE722A7178400FF9550 /* Info.plist */,
+			);
+			path = "Aphrodite's Toy Box";
+			sourceTree = "<group>";
+		};
+		C40F7CEF22A7178400FF9550 /* Aphrodite's Toy BoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40F7CF022A7178400FF9550 /* Aphrodite_s_Toy_BoxTests.swift */,
+				C40F7CF222A7178400FF9550 /* Info.plist */,
+			);
+			path = "Aphrodite's Toy BoxTests";
+			sourceTree = "<group>";
+		};
+		C40F7CFA22A7178400FF9550 /* Aphrodite's Toy BoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40F7CFB22A7178400FF9550 /* Aphrodite_s_Toy_BoxUITests.swift */,
+				C40F7CFD22A7178400FF9550 /* Info.plist */,
+			);
+			path = "Aphrodite's Toy BoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40F7CD722A7178200FF9550 /* Aphrodite's Toy Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40F7D0022A7178400FF9550 /* Build configuration list for PBXNativeTarget "Aphrodite's Toy Box" */;
+			buildPhases = (
+				C40F7CD422A7178200FF9550 /* Sources */,
+				C40F7CD522A7178200FF9550 /* Frameworks */,
+				C40F7CD622A7178200FF9550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aphrodite's Toy Box";
+			productName = "Aphrodite's Toy Box";
+			productReference = C40F7CD822A7178200FF9550 /* Aphrodite's Toy Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40F7CEB22A7178400FF9550 /* Aphrodite's Toy BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40F7D0322A7178400FF9550 /* Build configuration list for PBXNativeTarget "Aphrodite's Toy BoxTests" */;
+			buildPhases = (
+				C40F7CE822A7178400FF9550 /* Sources */,
+				C40F7CE922A7178400FF9550 /* Frameworks */,
+				C40F7CEA22A7178400FF9550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40F7CEE22A7178400FF9550 /* PBXTargetDependency */,
+			);
+			name = "Aphrodite's Toy BoxTests";
+			productName = "Aphrodite's Toy BoxTests";
+			productReference = C40F7CEC22A7178400FF9550 /* Aphrodite's Toy BoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40F7CF622A7178400FF9550 /* Aphrodite's Toy BoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40F7D0622A7178400FF9550 /* Build configuration list for PBXNativeTarget "Aphrodite's Toy BoxUITests" */;
+			buildPhases = (
+				C40F7CF322A7178400FF9550 /* Sources */,
+				C40F7CF422A7178400FF9550 /* Frameworks */,
+				C40F7CF522A7178400FF9550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40F7CF922A7178400FF9550 /* PBXTargetDependency */,
+			);
+			name = "Aphrodite's Toy BoxUITests";
+			productName = "Aphrodite's Toy BoxUITests";
+			productReference = C40F7CF722A7178400FF9550 /* Aphrodite's Toy BoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40F7CD022A7178200FF9550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jessica Alexander";
+				TargetAttributes = {
+					C40F7CD722A7178200FF9550 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C40F7CEB22A7178400FF9550 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C40F7CD722A7178200FF9550;
+					};
+					C40F7CF622A7178400FF9550 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C40F7CD722A7178200FF9550;
+					};
+				};
+			};
+			buildConfigurationList = C40F7CD322A7178200FF9550 /* Build configuration list for PBXProject "Aphrodite's Toy Box" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40F7CCF22A7178200FF9550;
+			productRefGroup = C40F7CD922A7178200FF9550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40F7CD722A7178200FF9550 /* Aphrodite's Toy Box */,
+				C40F7CEB22A7178400FF9550 /* Aphrodite's Toy BoxTests */,
+				C40F7CF622A7178400FF9550 /* Aphrodite's Toy BoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40F7CD622A7178200FF9550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40F7CE622A7178400FF9550 /* LaunchScreen.storyboard in Resources */,
+				C40F7CE322A7178400FF9550 /* Assets.xcassets in Resources */,
+				C40F7CE122A7178200FF9550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F7CEA22A7178400FF9550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F7CF522A7178400FF9550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40F7CD422A7178200FF9550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40F7CDE22A7178200FF9550 /* ViewController.swift in Sources */,
+				C40F7D0A22A7208E00FF9550 /* DetailsVC.swift in Sources */,
+				C40F7D0C22A721DB00FF9550 /* insideToyBox.swift in Sources */,
+				C40F7D0E22A721F400FF9550 /* Toys.swift in Sources */,
+				C40F7CDC22A7178200FF9550 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F7CE822A7178400FF9550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40F7CF122A7178400FF9550 /* Aphrodite_s_Toy_BoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F7CF322A7178400FF9550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40F7CFC22A7178400FF9550 /* Aphrodite_s_Toy_BoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40F7CEE22A7178400FF9550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40F7CD722A7178200FF9550 /* Aphrodite's Toy Box */;
+			targetProxy = C40F7CED22A7178400FF9550 /* PBXContainerItemProxy */;
+		};
+		C40F7CF922A7178400FF9550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40F7CD722A7178200FF9550 /* Aphrodite's Toy Box */;
+			targetProxy = C40F7CF822A7178400FF9550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40F7CDF22A7178200FF9550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40F7CE022A7178200FF9550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40F7CE422A7178400FF9550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40F7CE522A7178400FF9550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40F7CFE22A7178400FF9550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C40F7CFF22A7178400FF9550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40F7D0122A7178400FF9550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aphrodite's Toy Box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JessicaAlexander.Aphrodite-s-Toy-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40F7D0222A7178400FF9550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aphrodite's Toy Box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JessicaAlexander.Aphrodite-s-Toy-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C40F7D0422A7178400FF9550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aphrodite's Toy BoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JessicaAlexander.Aphrodite-s-Toy-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aphrodite's Toy Box.app/Aphrodite's Toy Box";
+			};
+			name = Debug;
+		};
+		C40F7D0522A7178400FF9550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aphrodite's Toy BoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JessicaAlexander.Aphrodite-s-Toy-BoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aphrodite's Toy Box.app/Aphrodite's Toy Box";
+			};
+			name = Release;
+		};
+		C40F7D0722A7178400FF9550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aphrodite's Toy BoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JessicaAlexander.Aphrodite-s-Toy-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aphrodite's Toy Box";
+			};
+			name = Debug;
+		};
+		C40F7D0822A7178400FF9550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aphrodite's Toy BoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JessicaAlexander.Aphrodite-s-Toy-BoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aphrodite's Toy Box";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40F7CD322A7178200FF9550 /* Build configuration list for PBXProject "Aphrodite's Toy Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40F7CFE22A7178400FF9550 /* Debug */,
+				C40F7CFF22A7178400FF9550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40F7D0022A7178400FF9550 /* Build configuration list for PBXNativeTarget "Aphrodite's Toy Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40F7D0122A7178400FF9550 /* Debug */,
+				C40F7D0222A7178400FF9550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40F7D0322A7178400FF9550 /* Build configuration list for PBXNativeTarget "Aphrodite's Toy BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40F7D0422A7178400FF9550 /* Debug */,
+				C40F7D0522A7178400FF9550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40F7D0622A7178400FF9550 /* Build configuration list for PBXNativeTarget "Aphrodite's Toy BoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40F7D0722A7178400FF9550 /* Debug */,
+				C40F7D0822A7178400FF9550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40F7CD022A7178200FF9550 /* Project object */;
+}
